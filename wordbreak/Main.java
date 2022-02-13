@@ -7,7 +7,7 @@ public class Main {
     public static void main (String[] args) {
         HashSet<String> dictionary = new HashSet<>(Arrays.asList(new String[] { "cats","dog","sand","and","cat"}));
         String input = "catsandog";
-        BackTrack bt = new BackTrack();
-        System.out.println(bt.wordBreak(input, dictionary));
+        Memoization memo = new Memoization();
+        System.out.println(memo.wordBreak(input, dictionary));
     }
 }
