@@ -1,2 +1,1 @@
-# Brace Expansion
-![Screenshot](brace-expansion.png)
+<img src="braceexpansion/brace-expansion.png" alt="logo"/>
